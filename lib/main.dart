@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:todo/pages/home_page.dart';
-import 'package:todo/pages/todo_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +16,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        appBarTheme: const AppBarTheme(
+          color: Colors.yellow
+        ),
         useMaterial3: true,
       ),
       home: HomePage(),
