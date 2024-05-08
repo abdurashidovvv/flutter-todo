@@ -1,16 +1,34 @@
-# todo
+# Todo App
 
-A new Flutter project.
+This is a simple todo app built with Flutter.
+
+![Todo App Screenshot](https://github.com/abdurashidovvv/flutter-todo/assets/105719873/663863de-05c1-408a-a591-e85973272a73)
+
+## Features
+- Add new tasks to your todo list
+- Mark tasks as completed
+- Delete tasks from the list
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with this app, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone this repository.
+2. Ensure you have Flutter installed. If not, follow the [installation instructions](https://flutter.dev/docs/get-started/install).
+3. Navigate to the project directory and run `flutter pub get` to install dependencies.
+4. Connect a device or start a simulator, then run `flutter run` to launch the app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Contributing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add some feature'`).
+5. Push to the branch (`git push origin feature/your-feature-name`).
+6. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
